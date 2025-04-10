@@ -21,7 +21,7 @@ import {
   PlusIcon,
   Squares2X2Icon,
 } from "@heroicons/react/20/solid"
-import Pagination from "../Pagination/Pagination"
+import Pagination from "../../Pagination/Pagination"
 
 const products = [
   {
@@ -399,8 +399,8 @@ const ProductList = () => {
                       </div>
                     </div>
                   </div>
-                {/* Pagination Section Start Here */}
-                <Pagination />
+                  {/* Pagination Section Start Here */}
+                  <Pagination />
                 </div>
               </div>
             </section>

@@ -4,7 +4,8 @@ import LoginPage from "./page/loginPage"
 import SignupPage from "./page/signupPage"
 import { createBrowserRouter, RouterProvider } from "react-router"
 import React from "react"
-import ReactDOM from "react-dom/client"
+import CartPage from "./page/CartPage"
+import CheckOut from "./page/CheckOut"
 
 const App = () => {
   const router = createBrowserRouter([
@@ -19,6 +20,14 @@ const App = () => {
     {
       path: "/signup",
       element: <SignupPage />,
+    },
+    {
+      path: "/cart",
+      element: <CartPage />,
+    },
+    {
+      path: "/checkout",
+      element: <CheckOut />,
     },
   ])
 
