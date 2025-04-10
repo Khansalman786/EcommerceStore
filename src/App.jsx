@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router"
 import React from "react"
 import CartPage from "./page/CartPage"
 import CheckOut from "./page/CheckOut"
-
+import ProductDetailsPage from "./page/ProductDetailsPage"
 const App = () => {
   const router = createBrowserRouter([
     {
@@ -28,6 +28,11 @@ const App = () => {
     {
       path: "/checkout",
       element: <CheckOut />,
+    },
+    // Product details Page not declare yet
+    {
+      path: "/product-details",
+      element: <ProductDetailsPage />,
     },
   ])
 
